@@ -38,7 +38,6 @@ function App() {
       setShowScore(true);
     }
   };
-  console.log(score);
 
   if (!quiz.length) {
     return <h3>Loading...</h3>;
